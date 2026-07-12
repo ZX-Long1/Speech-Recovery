@@ -1,0 +1,45 @@
+# Datasets, models, and binary assets uploaded later
+CREMA-D/
+CREMA-D.zip
+0D/
+model/
+noise/
+tables/
+
+# Python/runtime artifacts
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# IDE/editor metadata
+.idea/
+.vscode/
+
+# Logs and process files
+*.log
+pids/
+*.pid
+
+# Experiment outputs and generated results
+results/
+outputs/
+cremad_experiment/
+noise_evaluation_results/
+sc_noise_evaluation_results/
+sc_eval_figures/
+sc_eval_results*/
+sc_psd_results/
+sc_regularizer_comparison/
+*_results/
+*_results*/
+*_figures/
+
+# Temporary/cache files
+.cache/
+tmp/
+temp/
+
+# Nested Git metadata from downloaded assets
+**/.git/
+**/.git/**
