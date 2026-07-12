@@ -24,7 +24,6 @@ pids/
 # Experiment outputs and generated results
 results/
 outputs/
-cremad_experiment/
 noise_evaluation_results/
 sc_noise_evaluation_results/
 sc_eval_figures/
