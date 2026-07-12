@@ -44,7 +44,3 @@ temp/
 **/.git/**
 inversion_models/
 
-# Published inversion models
-!inversion_model/
-!inversion_model/CREMA-D/
-!inversion_model/CREMA-D/**
