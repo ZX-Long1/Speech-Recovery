@@ -73,7 +73,7 @@ def main():
 
     if args.model == 'resnet18':
         classifier = build_classifier(args.dataset, device)
-        decoder = build_decoder(args.split_point, device)
+        decoder = build_decoder(args.dataset, args.split_point, device)
         ck = torch.load(args.ckpt, map_location='cpu')
         decoder.load_state_dict(ck['model'])
     else:
